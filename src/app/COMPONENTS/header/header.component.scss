@@ -48,7 +48,7 @@
     position: relative;
     a {
       font-size: 2rem;
-      color: black !important;
+      color: white !important;
     }
     .nav-link:hover {
       background-color: darkorange;
@@ -56,8 +56,9 @@
   }
   // HIDE - When page has been scrolled more then 5px
   .hide  {
-    background-color: white;
+    background-color: black;
     a {
+      color: white;
       font-size: 2rem;
     }
     .nav-link:hover {

@@ -1,5 +1,7 @@
 .container-fluid {
   padding: unset;
+  background-color: black;
+  color: white;
 }
 
 .video_container {
@@ -158,6 +160,10 @@ video {
 
   #contacts_container {
     display: flex;
+
+    .card {
+      background-color: black;
+    }
   }
 }
 
@@ -171,7 +177,9 @@ video {
   height: 20vh;
   width: 100%;
 
-  border: 1px solid coral;
+  border-left: 1px solid coral;
+  border-right: 1px solid coral;
+  border-top: 1px solid coral;
 }
 
 @media only screen and (max-width: 576px) {
