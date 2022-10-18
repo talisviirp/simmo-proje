@@ -1,0 +1,144 @@
+.custom_container {
+  display: flex;
+  flex-direction: column;
+  // padding-top: 10vh;
+  // padding-bottom: 0;
+  width: 80vw;
+  height: 100%;
+  // background-color: #373940;
+  background-color: black;
+}
+.video_container {
+  margin-top: 4%;
+  // margin-left: 2%;
+  height: 80%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 100px;
+}
+
+.overlay {
+  background-image:
+    radial-gradient(closest-side at 25% 25%,red 80%,gray 81%),
+    radial-gradient(closest-side at 75% 75%,blue 80%,green 81%);
+  background-size: 2.5px 2.5px;
+  opacity: .3;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+.footer_container {
+  bottom: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  width: 100%;
+  margin-top: 5px;
+  height: 5%;
+  border-top: 3px solid #373940;
+  background-color: black;
+
+  .container_rec {
+    display: flex;
+    align-items: center;
+    width: 15%;
+    background-color: #2b2e36;
+    cursor: pointer;
+
+    #recCircle {
+      height: 17px;
+      width: 17px;
+      background-color: red;
+      border-radius: 50%;
+      display: inline-block;
+      animation: blinker 1.5s linear infinite;
+    }
+    @keyframes blinker {
+      50% {
+        opacity: 0;
+      }
+    }
+    h6 {
+      font-size: 25px;
+      margin: unset;
+      color: red;
+    }
+  }
+
+  .container_stby {
+    display: flex;
+    align-items: center;
+    width: 15%;
+    background-color: #2b2e36;
+    // border-bottom: 2px solid black;
+    // border-left: 2px solid black;
+    cursor: pointer;
+
+    #stbyCircle {
+      height: 17px;
+      width: 17px;
+      background-color: green;
+      border-radius: 50%;
+      display: inline-block;
+    }
+
+    h6 {
+      font-size: 25px;
+      margin: unset;
+      color: green;
+    }
+  }
+
+  .otherParameters {
+    display: inline-flex;
+    margin-right: auto;
+
+    .smallerContainer {
+      font-size: 15px;
+      margin-top: 1%;
+      color: lightgray;
+    }
+    .biggerContainer {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      font-size: 25px;
+      color: white;
+    }
+  }
+}
+
+
+.video-wrapper {
+  /* Telling our absolute positioned video to
+  be relative to this element */
+  position: relative;
+
+  width: 100%;
+  height: 100%;
+
+  /* Will not allow the video to overflow the
+  container */
+  overflow: hidden;
+
+  /* Centering the container's content vertically
+  and horizontally */
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+video {
+  /** Simulationg background-size: cover */
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+}

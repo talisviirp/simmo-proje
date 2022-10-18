@@ -1,0 +1,108 @@
+.parentContainer {
+  // min-height: calc(var(--vh) * 100);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+
+  // box-sizing: border-box;
+  // -moz-box-sizing: border-box;
+  // -webkit-box-sizing: border-box;
+  // border: 10px solid black;
+  // background-color: black;
+}
+
+.turn {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+}
+
+/* (A) WRONG ORIENTATION - SHOW MESSAGE HIDE CONTENT */
+@media only screen and (orientation:portrait) {
+  .turn { display:flex; }
+  .parentContainer { display:none; }
+}
+
+/* (B) CORRECT ORIENTATION - SHOW CONTENT HIDE MESSAGE */
+@media only screen and (orientation:landscape) {
+  .turn { display:none; }
+  .parentContainer { display:flex; }
+}
+
+.loadingScreen {
+  position: relative;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  width: 120px;
+  height: 120px;
+  margin: -76px 0 0 -76px;
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 1s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.loading_content {
+  display: flex;
+  width: 80vw;
+  background-color: black;
+}
+
+
+.nav {
+  position: absolute;
+  right: 0;
+  background-color: #373940;
+  display: flex;
+  flex-direction: column;
+  height: -webkit-fill-available;
+  width: 20vw;
+  justify-content: center;
+  z-index: 0;
+}
+
+ul {
+  padding-left: 3vw;
+  z-index: 2;
+  li {
+    font-size: calc(8px + 1.5vw);
+  }
+}
+
+.menuListItem {
+  border-bottom-left-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: gray;
+  color: black;
+  height: 13vh;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.active {
+  position: relative;
+  right: 10px;
+  background-color: aquamarine;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+

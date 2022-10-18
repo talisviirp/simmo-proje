@@ -1,0 +1,67 @@
+/*NAV STYLES*/
+
+// TS - TypeScript
+// COLLAPSED VIEW
+@media only screen and (max-width: 992px) {
+  .navbar {
+    position: relative;
+    width: 100vw;
+    .container-xl {
+      padding: 0 !important;
+      .logo {
+        padding-left: 10px;
+      }
+    }
+    .toggle_button {
+      padding-right: 10px;
+      z-index: 100;
+      .navbar-toggler {
+        background-color: white;
+        border-radius: 10px;
+        // border: 1px solid black;
+      }
+    }
+  }
+  .navbar-nav {
+    border-top: 1px solid rgba(0, 0, 0, .2);
+    padding-left: 10px;
+  }
+  // MAKES NAV BACKGROUND WHITE WHEN TOUCHED -- TEMPORARY SOLUTION
+  .navbar:hover {
+    background-color: white !important;
+  }
+}
+// NOT COLLAPSED VIEW
+@media only screen and (min-width: 992px) {
+  // MAKES STICKY NAVBAR AND HAS COLOR N FONT ATTRIBUTES.
+  .navbar {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    .navbar-collapse {
+      background-color: transparent !important;
+    }
+  }
+  // TS MAKSE COLORS CHANCE WHEN SCROLLED.
+  // SHOW - When page has not scrolled
+  .show  {
+    position: relative;
+    a {
+      font-size: 2rem;
+      color: black !important;
+    }
+    .nav-link:hover {
+      background-color: darkorange;
+    }
+  }
+  // HIDE - When page has been scrolled more then 5px
+  .hide  {
+    background-color: white;
+    a {
+      font-size: 2rem;
+    }
+    .nav-link:hover {
+      background-color: orangered;
+    }
+  }
+}

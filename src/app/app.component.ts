@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'simmo-proje';
+
+  onActivate(event: any) {
+    window.scroll(0,0);
+  }
 }

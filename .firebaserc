@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "kanbanfire-fd81f": {
+      "hosting": {
+        "simmo-proje": [
+          "kanbanfire-fd81f"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "kanbanfire-fd81f"
+  }
+}

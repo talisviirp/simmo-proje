@@ -103,6 +103,16 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "simmo-proje:build:production",
+            "firebaseProject": "kanbanfire-fd81f",
+            "firebaseHostingSite": "kanbanfire-fd81f"
+          }
         }
       }
     }
