@@ -9,6 +9,16 @@ import { Component, OnInit } from '@angular/core';
 
     <app-header></app-header>
 
+    <!-- sidebar test -->
+
+    <div id="nav" class="container-fluid">
+      <span>home</span>
+      <span>services</span>
+      <span>about</span>
+      <span>showreel</span>
+      <span>contacts</span>
+    </div>
+
       <!-- promo clip -->
 
     <div class="container video_container">
@@ -21,7 +31,7 @@ import { Component, OnInit } from '@angular/core';
 
     <!-- SERVICES -->
 
-    <div id="services" class="container">
+    <div id="services" class="container d-flex">
       <div class="container py-5">
         <h1>SERVICES</h1>
 
@@ -33,7 +43,7 @@ import { Component, OnInit } from '@angular/core';
                 <p>&nbsp;We work on the idea for the project analysing the goal, developing the concept and creating an achievable execution plan.</p>
               </div>
               <div class="tags_container">
-                <p class="tags">#Brainstorming #Idea developing workshops #Pre-visualisation #Location scouting</p>
+                <p class="tags">Brainstorming // Idea developing workshops // Pre-visualisation #Location scouting</p>
               </div>
             </div>
             <div id="boarded_edges" class="container services">
@@ -43,23 +53,24 @@ import { Component, OnInit } from '@angular/core';
               </div>
 
               <div class="tags_container ">
-                <p class="tags">#Directing #Full scale production #Execution & Logistics management #Procurement of crew & external vendors</p>
+                <p class="tags">Directing // Full scale production // Execution & Logistics management // Procurement of crew & external vendors</p>
               </div>
             </div>
 
             <div class="container services">
               <div class="titleText_container">
                 <h3>🖥️ Post-production</h3>
-                <p>&nbsp;After wrapping the shoot we gather in the studio and go through the footage we shot. We put the best bits on the timeline and create a story. After finishing the edit we give it last touches with colour grading, sound design and VFX.</p>
+                <p>&nbsp;After wrapping the shoot we gather in the studio and go through the footage we shot. We put the best bits on the timeline and create a story.</p>
+                <!-- <p> After finishing the edit we give it last touches with colour grading, sound design and VFX.</p> -->
               </div>
 
               <div class="tags_container">
-                <p class="tags">#Editing #Color grading #Sound design #VFX</p>
+                <p class="tags">Editing // Color grading // Sound design // VFX</p>
               </div>
             </div>
         </div>
       </div>
-      </div>
+    </div>
 
     <!-- about -->
 
@@ -71,10 +82,12 @@ import { Component, OnInit } from '@angular/core';
              class="container d-flex flex-xxl-row flex-sm-column">
           <div id="about_img"
                class="container mx-auto">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/STS-87_crew_1.jpg/1200px-STS-87_crew_1.jpg" class="rounded float-start" alt="..."></div>
-          <div id="about_text"
-               class="container m-xxl-5 mx-md-0 mx-sm-0 my-md-4 my-sm-3">
-            <p>We are three creative filmmakers from Estonia with a passion to bring ideas into reality with the form of moving and still pictures. Our team has comprehensive knowledge about the Estonian film and tv industry, also as a active social media users we know what is trending to help keep your company videos and pictures up to date</p>
+            <!-- <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/STS-87_crew_1.jpg/1200px-STS-87_crew_1.jpg" class="rounded float-start" alt="..."></div> -->
+            <img src="../../../assets/tv%20(1).svg" class="rounded float-start"  alt="">
+            <div id="about_text"
+                 class="container">
+              <p>We are three creative filmmakers from Estonia with a passion to bring ideas into reality with the form of moving and still pictures. Our team has comprehensive knowledge about the Estonian film and tv industry, also as a active social media users we know what is trending to help keep your company videos and pictures up to date</p>
+            </div>
           </div>
         </div>
       </div>
