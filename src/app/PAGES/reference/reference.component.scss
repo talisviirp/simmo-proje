@@ -74,6 +74,51 @@ video {
   }
 }
 
+#services {
+  margin-top: 20vh;
+  display: flex;
+  flex-direction: column;
+
+  height: auto;
+  width: 100%;
+
+  h1 {
+    margin-bottom: 40px;
+  }
+
+  border: 1px solid orange;
+  #services_container {
+    display: flex;
+    justify-content: space-between;
+
+    #boarded_edges {
+      border-right: 1px dotted orangered;
+      border-left: 1px dotted orangered;
+    }
+
+    .services {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+    }
+    .titleText_container {
+      h3 {
+        margin-bottom: 15px;
+      }
+    }
+    .tags_container {
+      .tags {
+        display: flex;
+        font-size: 10px;
+        color: lightgray;
+        font-style: italic;
+        margin-bottom: unset;
+      }
+    }
+  }
+}
+
 #about {
   margin-top: 20vh;
   display: flex;
@@ -196,6 +241,21 @@ video {
 
   #contacts_container {
     flex-direction: column;
+  }
+
+  #services_container {
+    flex-direction: column;
+
+    #boarded_edges {
+      // border-right: unset;
+      // border-left: unset;
+      // border-top: 1px dotted orangered;
+      // border-bottom: 1px dotted orangered;
+    }
+
+    .services {
+      margin-bottom: 7vh;
+    }
   }
 }
 

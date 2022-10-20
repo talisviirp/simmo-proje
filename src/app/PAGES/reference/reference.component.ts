@@ -13,14 +13,53 @@ import { Component, OnInit } from '@angular/core';
 
     <div class="container video_container">
       <div class="video-wrapper">
-        <video id="video" playsinline autoplay [muted]="'muted'" loop poster="">
-          <source src="../../../assets/mainBackground.mp4" type="video/webm">
-          Your browser does not support the video tag.
-        </video>
+        <iframe id="video" title="vimeo-player" src="https://player.vimeo.com/video/755876584?h=ca792f1001?background=1&autoplay=1&loop=1&byline=0&title=0" width="100%" height="100%"></iframe>
         <div class="overlay"></div>
         <div class="overlay2"></div>
       </div>
     </div>
+
+    <!-- SERVICES -->
+
+    <div id="services" class="container">
+      <div class="container py-5">
+        <h1>SERVICES</h1>
+
+        <div id="services_container"
+             class="container">
+            <div class="container services">
+              <div class="titleText_container">
+                <h3>🎬 Pre-production</h3>
+                <p>&nbsp;We work on the idea for the project analysing the goal, developing the concept and creating an achievable execution plan.</p>
+              </div>
+              <div class="tags_container">
+                <p class="tags">#Brainstorming #Idea developing workshops #Pre-visualisation #Location scouting</p>
+              </div>
+            </div>
+            <div id="boarded_edges" class="container services">
+              <div class="titleText_container">
+                <h3>🎥 Production</h3>
+                <p>&nbsp;This is the day when we set out to the location and execute our ideas. A film set is like a clockwork and we make sure everything runs smoothly.</p>
+              </div>
+
+              <div class="tags_container ">
+                <p class="tags">#Directing #Full scale production #Execution & Logistics management #Procurement of crew & external vendors</p>
+              </div>
+            </div>
+
+            <div class="container services">
+              <div class="titleText_container">
+                <h3>🖥️ Post-production</h3>
+                <p>&nbsp;After wrapping the shoot we gather in the studio and go through the footage we shot. We put the best bits on the timeline and create a story. After finishing the edit we give it last touches with colour grading, sound design and VFX.</p>
+              </div>
+
+              <div class="tags_container">
+                <p class="tags">#Editing #Color grading #Sound design #VFX</p>
+              </div>
+            </div>
+        </div>
+      </div>
+      </div>
 
     <!-- about -->
 
@@ -45,7 +84,7 @@ import { Component, OnInit } from '@angular/core';
 
     <div id="work" class="container">
       <div class="container py-5">
-        <h1>WORK</h1>
+        <h1>SHOWREEL</h1>
 
       <div id="work_container" class="container">
         <div class="row">

@@ -7,7 +7,7 @@ import {Component, ElementRef, Input, OnInit, ViewChild} from '@angular/core';
     <div class="video_container">
       <div class="video-wrapper">
         <video id="video" playsinline autoplay [muted]="'muted'" loop poster="">
-          <source src="../../../assets/mainBackground.mp4" type="video/webm">
+          <source src="" type="video/webm">
           Your browser does not support the video tag.
         </video>
         <div class="overlay"></div>
