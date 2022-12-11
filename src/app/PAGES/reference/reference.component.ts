@@ -141,8 +141,11 @@ import {Component, HostListener, OnInit, ViewChild} from '@angular/core';
               <div class="card-body">
                 <h4>ALEX TERVINSKY</h4>
                 <p class="card-text">Režissöör, Operaator, Värvimääraja</p>
-                <p>Alextervinski@howbizzar.com</p>
-                <p>5538883</p>
+<!--                <p>Alextervinski@howbizzar.com</p>-->
+                <a href="mailto:alextervinski@howbizzar.com">alextervinski@howbizzar.com</a>
+<br>
+<!--                <p>+3725538883</p>-->
+                <a href="tel:+3725538883">3725538883</a>
               </div>
             </div>
 
@@ -152,8 +155,12 @@ import {Component, HostListener, OnInit, ViewChild} from '@angular/core';
               <div class="card-body">
                 <h4>SIMMO SASKA</h4>
                 <p class="card-text">Builder master specialist</p>
-                <p>Simmosaska@howbizzar.com</p>
-                <p>58316922</p>
+<!--                <p>Simmosaska@howbizzar.com</p>-->
+                <a href="mailto:simmosaska@howbizzar.com">simmosaska@howbizzar.com</a>
+<br>
+                <!--                <p>+37258316922</p>-->
+                <a href="tel:+37258316922">37258316922</a>
+
               </div>
             </div>
 
@@ -162,8 +169,11 @@ import {Component, HostListener, OnInit, ViewChild} from '@angular/core';
               <div class="card-body">
                 <h4>TOOMAS TATAR</h4>
                 <p class="card-text">Operaator, Montaaž, Värvikeeraja</p>
-                <p>toomastatar@howbizzar.com</p>
-                <p>53235452</p>
+<!--                <p>toomastatar@howbizzar.com</p>-->
+                <a href="mailto:toomastatar@howbizzar.com">toomastatar@howbizzar.com</a>
+<br>
+                <!--                <p>+37253235452</p>-->
+                <a href="tel:+37253235452">37253235452</a>
               </div>
             </div>
           </div>
@@ -187,8 +197,10 @@ import {Component, HostListener, OnInit, ViewChild} from '@angular/core';
           <!-- kontaktid     -->
           <div id="footer_contacts" class="container">
             <div class="footer_content_container">
-              <span><strong>TELEFON: </strong>+372 58316922</span>
-              <span><strong>EMAIL: </strong>Info@howbizzar.com</span>
+              <span><strong>TELEFON: </strong>
+                <a href="tel:+37258316922">37258316922</a></span>
+              <span><strong>EMAIL: </strong>
+                <a href="mailto:Info@howbizzar.com">Info@howbizzar.com</a></span>
               <br>
               <span>
                 <a id="a_instagram" href="http://www.instagram.com">INSTAGRAM &emsp;</a>

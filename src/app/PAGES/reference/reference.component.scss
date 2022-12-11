@@ -384,6 +384,11 @@
       .card {
         background-color: black;
         text-align: justify;
+
+        .card-body > a {
+          color: white;
+          opacity: 0.5;
+        }
       }
     }
   }
