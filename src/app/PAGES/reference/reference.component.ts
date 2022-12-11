@@ -154,7 +154,7 @@ import {Component, HostListener, OnInit, ViewChild} from '@angular/core';
                    class="card-img-top" alt="...">
               <div class="card-body">
                 <h4>SIMMO SASKA</h4>
-                <p class="card-text">Builder master specialist</p>
+                <p class="card-text">Loovjuht, Produtsent, Režissöör</p>
 <!--                <p>Simmosaska@howbizzar.com</p>-->
                 <a href="mailto:simmosaska@howbizzar.com">simmosaska@howbizzar.com</a>
 <br>
