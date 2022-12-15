@@ -49,10 +49,12 @@ import {Component, HostListener, OnInit, ViewChild} from '@angular/core';
           </section>
         </div>
       </div>
-
-      <div id="welcome_banner" class="container banner">
-
-      </div>
+        <section class="container-fluid banner">
+          <div id="welcome_banner" class="container">
+            <p> <strong>HowBizzar</strong> loob kvaliteetset visuaalset sisu, keskendudes video, foto, animatsiooni ja graafilise disainile.</p>
+            <p>Leiame <strong>teie</strong> ettevōtte edukaks turundamiseks tabavad ja nüüdisaegsed lahendused arvestades tänapäeva trendide ja standarditega.</p>
+          </div>
+        </section>
 
       <!-- SERVICES -->
 
@@ -69,7 +71,7 @@ import {Component, HostListener, OnInit, ViewChild} from '@angular/core';
                   ning koostame teostusplaani. </p>
               </div>
               <div class="tags_container">
-                <p class="tags">Brainstorming // Idea developing workshops // Pre-visualisation #Location scouting</p>
+                <p class="tags">Ideede genereerimine // Eel-visualiseerimine // Lokatsioonide kinnitamine</p>
               </div>
             </div>
             <div id="boarded_edges" class="container services">
@@ -81,8 +83,7 @@ import {Component, HostListener, OnInit, ViewChild} from '@angular/core';
               </div>
 
               <div class="tags_container ">
-                <p class="tags">Directing // Full scale production // Execution & Logistics management // Procurement of
-                  crew & external vendors</p>
+                <p class="tags">Lavastamine // Võttepäeva läbiviimine // Meeskonna logistika // Catering</p>
               </div>
             </div>
 
@@ -92,11 +93,10 @@ import {Component, HostListener, OnInit, ViewChild} from '@angular/core';
                 <p>&nbsp;Järelproduktsiooni etapis alustame tööd võttepäeval toodetud materjaliga. Montaaži,
                   helindamise, värvitöötluse ning graafika abil sünnib selles etapis lõpptulemus.
                 </p>
-                <!-- <p> After finishing the edit we give it last touches with colour grading, sound design and VFX.</p> -->
               </div>
 
               <div class="tags_container">
-                <p class="tags">Editing // Color grading // Sound design // VFX</p>
+                <p class="tags">Montaaž // Värvimääramine // Helindus // Visuaalsed effektid</p>
               </div>
             </div>
           </div>
@@ -114,7 +114,7 @@ import {Component, HostListener, OnInit, ViewChild} from '@angular/core';
             <div id="about_img"
                  class="container mx-auto">
               <!-- <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/STS-87_crew_1.jpg/1200px-STS-87_crew_1.jpg" class="rounded float-start" alt="..."></div> -->
-              <img src="../../../assets/tv%20(1).svg" class="rounded float-start" alt="">
+              <img src="../../../assets/crew.gif" class="rounded float-start" alt="">
               <div id="about_text"
                    class="container">
                 <p>Oleme kolm loomingulist Eesti filmitegijat, kelle kireks on liikuvate piltide abil ideid ellu viia.
@@ -137,42 +137,36 @@ import {Component, HostListener, OnInit, ViewChild} from '@angular/core';
                class="container flex-sm-column flex-md-row flex-lg-row flex-xl-row flex-xxl-row justify-content-center align-items-center">
 
             <div class="card mx-auto" style="width: 18rem;">
-              <img src="../../assets/_DSC4905.jpg" class="card-img-top" alt="...">
+              <img src="../../assets/_DSC4905.jpg" class="card-img-top" alt="ALEX TERVINSKY">
               <div class="card-body">
                 <h4>ALEX TERVINSKY</h4>
                 <p class="card-text">Režissöör, Operaator, Värvimääraja</p>
-<!--                <p>Alextervinski@howbizzar.com</p>-->
                 <a href="mailto:alextervinski@howbizzar.com">alextervinski@howbizzar.com</a>
-<br>
-<!--                <p>+3725538883</p>-->
+                <br>
                 <a href="tel:+3725538883">3725538883</a>
               </div>
             </div>
 
             <div class="card mx-auto" style="width: 18rem;">
               <img src="../../assets/_DSC4909.jpg"
-                   class="card-img-top" alt="...">
+                   class="card-img-top" alt="SIMMO SASKA">
               <div class="card-body">
                 <h4>SIMMO SASKA</h4>
                 <p class="card-text">Loovjuht, Produtsent, Režissöör</p>
-<!--                <p>Simmosaska@howbizzar.com</p>-->
                 <a href="mailto:simmosaska@howbizzar.com">simmosaska@howbizzar.com</a>
-<br>
-                <!--                <p>+37258316922</p>-->
+                <br>
                 <a href="tel:+37258316922">37258316922</a>
 
               </div>
             </div>
 
             <div class="card mx-auto" style="width: 18rem;">
-              <img src="../../assets/_DSC4930.jpg" class="card-img-top" alt="...">
+              <img src="../../assets/_DSC4930.jpg" class="card-img-top" alt="TOOMAS TATAR">
               <div class="card-body">
                 <h4>TOOMAS TATAR</h4>
                 <p class="card-text">Operaator, Montaaž, Värvikeeraja</p>
-<!--                <p>toomastatar@howbizzar.com</p>-->
                 <a href="mailto:toomastatar@howbizzar.com">toomastatar@howbizzar.com</a>
-<br>
-                <!--                <p>+37253235452</p>-->
+                <br>
                 <a href="tel:+37253235452">37253235452</a>
               </div>
             </div>
@@ -197,17 +191,16 @@ import {Component, HostListener, OnInit, ViewChild} from '@angular/core';
           <!-- kontaktid     -->
           <div id="footer_contacts" class="container">
             <div class="footer_content_container">
-              <span><strong>TELEFON: </strong>
-                <a href="tel:+37258316922">37258316922</a></span>
-              <span><strong>EMAIL: </strong>
-                <a href="mailto:Info@howbizzar.com">Info@howbizzar.com</a></span>
-              <br>
-              <span>
-                <a id="a_instagram" href="http://www.instagram.com">INSTAGRAM &emsp;</a>
+              <h6>📞
+                <a href="tel:+37258316922">37258316922</a></h6>
+              <h6>📬
+                <a href="mailto:Info@howbizzar.com">Info@howbizzar.com</a></h6>
+<!--              <span>-->
+<!--                <a id="a_instagram" href="http://www.instagram.com">INSTAGRAM &emsp;</a>-->
 
-                <a href="http://www.facebook.com">FACEBOOK &emsp;</a>
-                <a id="a_vimeo" href="http://www.vimeo.com">VIMEO</a>
-            </span>
+<!--                <a href="http://www.facebook.com">FACEBOOK &emsp;</a>-->
+<!--                <a id="a_vimeo" href="http://www.vimeo.com">VIMEO</a>-->
+<!--            </span>-->
             </div>
           </div>
         </div>
