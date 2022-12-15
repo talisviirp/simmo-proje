@@ -312,7 +312,6 @@
 
     h1 {
       margin-bottom: 40px;
-      opacity: .1;
     }
 
     #services_container {
@@ -398,7 +397,6 @@
 
       .card {
         background-color: black;
-        text-align: justify;
 
         .card-body {
           display: flex;
@@ -463,14 +461,6 @@
           color: white;
           opacity: .5;
         }
-        // TODO TEST
-        #a_instagram {
-          color: orangered !important;
-        }
-        // TODO TEST
-        #a_vimeo {
-          color: deepskyblue !important;
-        }
       }
     }
   }
@@ -503,6 +493,13 @@
       margin-left: 8vw;
     }
 
+    .footer_content_container {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      height: 110px;
+    }
+
     #address_small {
       display: flex;
       justify-content: center;
@@ -524,8 +521,6 @@
       }
     }
 
-
-
     #about_img {
       flex-direction: column;
 
@@ -546,6 +541,9 @@
 
     #contacts_container {
       flex-direction: column;
+      .card {
+        margin-bottom: 7vh;
+      }
     }
 
     #about_img {

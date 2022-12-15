@@ -51,8 +51,8 @@ import {Component, HostListener, OnInit, ViewChild} from '@angular/core';
       </div>
         <section class="container-fluid banner">
           <div id="welcome_banner" class="container">
-            <p> <strong>HowBizzar</strong> loob kvaliteetset visuaalset sisu, keskendudes video, foto, animatsiooni ja graafilise disainile.</p>
-            <p>Leiame <strong>teie</strong> ettevōtte edukaks turundamiseks tabavad ja nüüdisaegsed lahendused arvestades tänapäeva trendide ja standarditega.</p>
+            <p> <strong>HowBizzar</strong> loob kvaliteetset visuaalset sisu, keskendudes video, foto, animatsiooni ja graafilisele disainile.</p>
+            <p>Leiame <strong>teie</strong> ettevōtte edukaks turundamiseks tabavad ja nüüdisaegsed visuaalsed lahendused, arvestades kaasaegseid trende ja standardeid.</p>
           </div>
         </section>
 
@@ -172,7 +172,7 @@ import {Component, HostListener, OnInit, ViewChild} from '@angular/core';
               <div class="card-body">
                 <div>
                   <h4>TOOMAS TATAR</h4>
-                  <p class="card-text">Operaator, Montaaž, Värvikeeraja</p>
+                  <p class="card-text">Operaator, Montaaž, Strateeg</p>
                 </div>
                 <div class="to-bottom">
                   <a href="mailto:toomastatar@howbizzar.com">toomastatar@howbizzar.com</a>
