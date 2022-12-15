@@ -134,16 +134,20 @@ import {Component, HostListener, OnInit, ViewChild} from '@angular/core';
           <h1>KONTAKTID</h1>
 
           <div id="contacts_container"
-               class="container flex-sm-column flex-md-row flex-lg-row flex-xl-row flex-xxl-row justify-content-center align-items-center">
+               class="container flex-sm-column flex-md-row flex-lg-row flex-xl-row flex-xxl-row justify-content-center align-items-center align-items-stretch">
 
             <div class="card mx-auto" style="width: 18rem;">
               <img src="../../assets/_DSC4905.jpg" class="card-img-top" alt="ALEX TERVINSKY">
               <div class="card-body">
-                <h4>ALEX TERVINSKY</h4>
-                <p class="card-text">Režissöör, Operaator, Värvimääraja</p>
-                <a href="mailto:alextervinski@howbizzar.com">alextervinski@howbizzar.com</a>
-                <br>
-                <a href="tel:+3725538883">3725538883</a>
+                <div>
+                  <h4>ALEX TERVINSKY</h4>
+                  <p class="card-text">Režissöör, Operaator, Värvimääraja</p>
+                </div>
+                <div class="to-bottom">
+                  <a href="mailto:alextervinski@howbizzar.com">alextervinski@howbizzar.com</a>
+                  <br>
+                  <a href="tel:+3725538883">3725538883</a>
+                </div>
               </div>
             </div>
 
@@ -151,23 +155,30 @@ import {Component, HostListener, OnInit, ViewChild} from '@angular/core';
               <img src="../../assets/_DSC4909.jpg"
                    class="card-img-top" alt="SIMMO SASKA">
               <div class="card-body">
-                <h4>SIMMO SASKA</h4>
-                <p class="card-text">Loovjuht, Produtsent, Režissöör</p>
-                <a href="mailto:simmosaska@howbizzar.com">simmosaska@howbizzar.com</a>
-                <br>
-                <a href="tel:+37258316922">37258316922</a>
-
+                <div>
+                  <h4>SIMMO SASKA</h4>
+                  <p class="card-text">Loovjuht, Produtsent, Režissöör</p>
+                </div>
+                <div class="to-bottom">
+                  <a href="mailto:simmosaska@howbizzar.com">simmosaska@howbizzar.com</a>
+                  <br>
+                  <a href="tel:+37258316922">37258316922</a>
+                </div>
               </div>
             </div>
 
             <div class="card mx-auto" style="width: 18rem;">
               <img src="../../assets/_DSC4930.jpg" class="card-img-top" alt="TOOMAS TATAR">
               <div class="card-body">
-                <h4>TOOMAS TATAR</h4>
-                <p class="card-text">Operaator, Montaaž, Värvikeeraja</p>
-                <a href="mailto:toomastatar@howbizzar.com">toomastatar@howbizzar.com</a>
-                <br>
-                <a href="tel:+37253235452">37253235452</a>
+                <div>
+                  <h4>TOOMAS TATAR</h4>
+                  <p class="card-text">Operaator, Montaaž, Värvikeeraja</p>
+                </div>
+                <div class="to-bottom">
+                  <a href="mailto:toomastatar@howbizzar.com">toomastatar@howbizzar.com</a>
+                  <br>
+                  <a href="tel:+37253235452">37253235452</a>
+                </div>
               </div>
             </div>
           </div>
@@ -195,12 +206,6 @@ import {Component, HostListener, OnInit, ViewChild} from '@angular/core';
                 <a href="tel:+37258316922">37258316922</a></h6>
               <h6>📬
                 <a href="mailto:Info@howbizzar.com">Info@howbizzar.com</a></h6>
-<!--              <span>-->
-<!--                <a id="a_instagram" href="http://www.instagram.com">INSTAGRAM &emsp;</a>-->
-
-<!--                <a href="http://www.facebook.com">FACEBOOK &emsp;</a>-->
-<!--                <a id="a_vimeo" href="http://www.vimeo.com">VIMEO</a>-->
-<!--            </span>-->
             </div>
           </div>
         </div>
