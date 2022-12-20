@@ -5,8 +5,8 @@ import {ReferenceComponent} from "./PAGES/reference/reference.component";
 
 const routes: Routes = [
   // {path: '**', component: MainComponent},
-  {path: 'reference', component: ReferenceComponent},
-  {path: '**', redirectTo: 'reference'}
+  {path: '', component: ReferenceComponent},
+  {path: '**', redirectTo: ''}
 ];
 
 @NgModule({

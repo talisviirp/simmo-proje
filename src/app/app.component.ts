@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'simmo-proje';
+  title = 'HowBizzar';
 
   onActivate(event: any) {
     window.scroll(0,0);
